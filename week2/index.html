@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
@@ -30,7 +31,7 @@
         </div>
     </header>
 
-    <section class="body container-fluid row pl-5 pr-5">
+    <section class="body container-fluid  row pl-5 pr-5">
         <aside class="bg-light border p-2 col-3">
             <div class="filter pr-3 pl-3">
 
@@ -81,23 +82,20 @@
             </div>
         </aside>
 
-
         <section class="d-inline-block col pl-3 pt-3">
-            <h5>Showing <span class="text-warning">15</span> results by…</h5>
+            <h5 class="d-sm-block d-none">Showing <span class="text-warning">15</span> results by…</h5>
 
-            <div class="pt-2">
-                <button class="btn btn-outline-primary" style="border-radius: 50px;">Entertainment <i class="fas fa-times"></i></button>
+            <div class="pt-2 d-sm-block d-none">
+                <button class="btn-tag btn btn-outline-primary">Entertainment <i class="fas fa-times"></i></button>
             </div>
 
             <article class="mt-3">
-                <div class="row no-gutters">
-                    <div class="">
-                        <div class="image">
-                            <img style="width: 220px; height: 220px;" src="https://images.pexels.com/photos/867465/pexels-photo-867465.jpeg?auto=compress" alt=""></img>
-                        </div>
+                <div class="article  container-fluid row no-gutters">
+                    <div class="article-img col-12 col-lg-3">
+                        <img class="w-100" src="https://images.pexels.com/photos/867465/pexels-photo-867465.jpeg?auto=compress" alt=""></img>
                     </div>
 
-                    <div class="bg-white col p-3">
+                    <div class="article-content bg-white col-12 col-lg-9 p-3">
                         <h3 class="text-primary">Kogi Cosby sweater.</h3>
                         <div>
                             <p>
@@ -107,12 +105,12 @@
                         </div>
 
                         <div>
-                            <span>Ethan Foster</span>
-                            <span>Entertainment</span>
+                            <span class="mr-1">Ethan Foster</span>
+                            <span class="badge badge-pill badge-secondary">Entertainment</span>
                         </div>
 
                         <div>
-                            <span><i class="fas fa-map-marker"></i> Kaohsiung City</span>
+                            <span class="mr-3"><i class="fas fa-map-marker"></i> Kaohsiung City</span>
                             <span><i class="far fa-calendar-alt"></i> 2018/5/24 - 2018/5/31</span>
                         </div>
                     </div>

@@ -9,6 +9,14 @@ body {
     background-color: #F2F2F2;
 }
 
+body .btn-tag {
+    border-radius: 30px;
+}
+
 header h2 {
     font-family: Optima-ExtraBlack !important;
+}
+
+.article img {
+    height: 220px;
 }
