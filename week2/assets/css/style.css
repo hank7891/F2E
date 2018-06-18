@@ -20,3 +20,7 @@ header h2 {
 .article img {
     height: 220px;
 }
+
+.content-img img {
+    width: 645px;
+}
