@@ -35,3 +35,26 @@ header .profile {
     font-family: Optima-ExtraBlack !important;
     font-size: 30px;
 }
+
+.order-content .img img {
+    height: 100px;
+}
+
+.order-content .content .title {
+    font-family: Optima-ExtraBlack !important;
+}
+
+.order-content .content .info .left {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.order-content .content .info .right {
+    text-align: right;
+    font-size: 14px;
+}
+
+.order-content .content .info .price span {
+    font-family: Optima-ExtraBlack !important;
+    font-size: 20px;
+}
