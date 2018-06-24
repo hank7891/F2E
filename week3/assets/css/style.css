@@ -24,3 +24,14 @@ header .profile {
     border-bottom-width: 5px;
     color: #ffffff !important;
 }
+
+.pack {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.statistics-body span {
+    font-family: Optima-ExtraBlack !important;
+    font-size: 30px;
+}
