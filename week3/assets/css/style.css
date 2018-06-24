@@ -5,22 +5,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-    background-color: #F2F2F2;
-}
-
-body .btn-tag {
-    border-radius: 30px;
-}
-
 header h2 {
     font-family: Optima-ExtraBlack !important;
 }
 
-.article img {
-    height: 220px;
+header .profile {
+    font-family: Optima-ExtraBlack;
+    font-size: 22px;  
 }
 
-.content-img img {
-    width: 645px;
+.nav-bar .nav .nav-item a {
+    font-family: Optima-ExtraBlack;
+    font-size: 22px;
+}
+
+.nav-bar .nav .active a {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    color: #ffffff !important;
 }
